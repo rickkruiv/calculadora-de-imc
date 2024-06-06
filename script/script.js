@@ -132,9 +132,9 @@ calcBtn.addEventListener('click', (e) => {
     imcInfo.innerText = info;
 
     switch(info) {
-        case "Magresa": 
-            imcInfo.classList.add('low');
-            imcNumber.classList.add('low');
+        case "Magreza": 
+            imcInfo.classList.add('high');
+            imcNumber.classList.add('high');
             break;
         case "Normal": 
             imcInfo.classList.add('good');
